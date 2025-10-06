@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Konsultasi - Institut Teknologi Bandung (ITB)</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+        header {
+            background-color: rgb(13, 52, 75);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 60%;
+        }
+        form input, form textarea, form select {
+            width: 95%;
+            padding: 8px;
+            margin: 6px 0;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            font-family: Arial, sans-serif;
+        }
+        form input[type="submit"] {
+            background-color: navy;
+            color: white;
+            cursor: pointer;
+            width: 30%;
+        }
+        form input[type="submit"]:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bagian Atas -->
+    <header>
+        <h1>Universitas Diponegoro</h1>
+        <p>Halaman Konsultasi Mahasiswa & Umum</p>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="konsultasi">
+            <h2>Konsultasi</h2>
+            <p align="justify">
+                Layanan konsultasi ini ditujukan bagi calon mahasiswa, mahasiswa aktif, maupun masyarakat umum 
+                yang ingin mendapatkan informasi lebih lanjut terkait program studi, pendaftaran, beasiswa, 
+                maupun kegiatan akademik di Universitas Diponegoro.
+            </p>
+
+            <h3>Formulir Konsultasi</h3>
+            <form>
+                Nama Lengkap:<br>
+                <input type="text" name="nama"><br>
+                Email:<br>
+                <input type="email" name="email"><br>
+                Kategori Konsultasi:<br>
+                <select name="kategori">
+                    <option>Pendaftaran</option>
+                    <option>Program Studi</option>
+                    <option>Beasiswa</option>
+                    <option>Kegiatan Akademik</option>
+                    <option>Lainnya</option>
+                </select><br>
+                Pertanyaan / Pesan:<br>
+                <textarea name="pesan" rows="5"></textarea><br>
+                <input type="submit" value="Kirim Konsultasi">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p style="text-align: center;">© Wiradhia Mirza Syahbuddin (A12.2024.07194)</p>
+    </footer>
+</body>
+</html>
