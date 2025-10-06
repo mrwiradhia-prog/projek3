@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Mirza</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+        header {
+            background-color: rgb(13, 52, 75);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 0;
+        }
+        nav table {
+            width: 100%;
+            background-color: rgb(13, 52, 75);
+            border-collapse: collapse;
+        }
+        nav td {
+            text-align: center;
+            font-weight: bold;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        footer {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bagian Atas -->
+    <header>
+        <h1>Universitas Diponegoro (UNDIP)</h1>
+        <p>Kampus Undip – Semarang, Indonesia</p>
+    </header>
+
+    <!-- Menu Navigasi -->
+    <nav>
+        <table border="1" cellspacing="0" cellpadding="8">
+        <tr>
+            <td><a href="#profil">Profil</a></td>
+            <td><a href="#fakultasprodi">Fakultas & Prodi</a></td>
+            <td><a href="#pendaftaran">Pendaftaran</a></td>
+            <td><a href="konsultasi.html">Konsultasi</a></td>
+            <td><a href="berita.html">Berita</a></td>
+        </tr>      
+        </table>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Bagian Profil -->
+        <section id="profil">
+            <h2>Profil Universitas Diponegoro</h2>
+            <p align="justify">
+                Sekitar awal tahun 1950-an masyarakat Jawa Tengah pada umumnya dan masyarakat Semarang khususnya, membutuhkan kehadiran sebuah universitas sebagai pelaksana pendidikan dan pengajaran tinggi. Tujuannya untuk membantu pemerintah dalam menangani dan melaksanakan pembangunan di segala bidang khususnya bidang pendidikan. Pada waktu itu di Provinsi Jawa Tengah dan Yogyakarta hanya memiliki Universitas Gadjah Mada yang berstatus sebagai universitas negeri.Sementara jumlah lulusan sekolah menengah atas di Jawa Tengah bagian utara yang akan melanjutkan pendidikan tinggi di universitas makin meningkat, namun karena masih sangat terbatasnya universitas yang ada, maka tidak semua lulusan dapat tertampung. Menyadari akan kebutuhan pendidikan tinggi yang semakin mendesak, kemudian dibentuk Yayasan Universitas Semarang dengan Akte Notaris R.M. Soeprapto No. 59 tanggal 4 Desember 1956 sebagai langkah awal didirikannya universitas di Semarang dengan nama Universitas Semarang yang secara resmi dibuka pada tanggal 9 Januari 1957, dengan Presiden Universitas yang pertama adalah Mr. Imam Bardjo.                <br><br>
+                 
+                <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
+
+        <!-- Bagian Fakultas & Prodi -->
+        <section id="fakultasprodi">
+            <h2>Fakultas & Program Studi</h2>
+            <p align="justify">
+                Universitas Diponegoro bertekad untuk menanamkan nilai-nilai perjuangan Pangeran Diponegoro berikut dalam segenap diri mahasiswa, alumni, dosen dan tenaga kependidikan:
+            </p>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <tr><th>No</th><th>Fakultas</th><th>Program Studi Contoh</th></tr>
+                <tr><td>1</td><td>Fakultas Hukum (FH)</td><td>Hukum Perdata,Hukum Pidana, Hukum Tata Negara</td></tr>
+                <tr><td>2</td><td>Fakultas Kedokteran (Fk)</td><td>Kedokteran Gizi, Kedokteran Gigi</td></tr>
+                <tr><td>3</td><td>Fakultas Ekonomi dan Bisnis (FEB)</td><td>Akutansi, Bisnis Digital</td></tr>
+                <tr><td>4</td><td>Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)</td><td>Matematika, Biologi, Kimia</td></tr>
+                <tr><td>5</td><td>Fakultas Seni Rupa dan Desain (FSRD)</td><td>Desain Komunikasi Visual, Seni Rupa</td></tr>
+            </table>
+            <br><a href="#top">Kembali ke Atas</a>
+        </section>
+
+        <!-- Bagian Pendaftaran -->
+        <section id="pendaftaran">
+            <h2>Pendaftaran Mahasiswa Baru</h2>
+            <form>
+               <h3>Isilah Formulir dibawah ini dengan benar</h3>
+                1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br><br>
+                2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br><br>
+                3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br><br>
+                4. Alamat&ensp;: <br>
+                <textarea name="talamat" rows="4" cols="50"></textarea><br><br>
+                5. Email&ensp;:&ensp; <input type="email" name="temail"><br><br>
+                6. Kota/Kabupaten&ensp;:&ensp;
+                <select name='kota_kabupaten'>
+                    <option value='1'>Kota Semarang</option>
+                    <option value='2'>Kabupaten Semarang</option>
+                    <option value='3'>Kabupaten Demak</option>
+                    <option value='4'>Kabupaten Kendal</option>
+                    <option value='5'>Kabupaten Pekalongan</option>
+                </select><br><br>
+                7. Propinsi&ensp;:
+                <select name='propinsi'>
+                    <option value='1'>Jawa Tengah</option>
+                    <option value='2'>Jawa Barat</option>
+                    <option value='3'>Jawa Timur</option>
+                    <option value='4'>Papua</option>
+                </select>
+                <br><br>
+                8. Unggah Halaman depan Ijazah terakhir : <input type="file">
+                <br><br>
+                <h4>Sosialisasi Edisi Penerimaan Mahasiswa Baru</h4> 
+                
+                <!-- Embed YouTube -->
+                <iframe width="560" height="315"
+                     src="https://www.youtube.com/embed/jUIbYqm51ec"
+                     title="YouTube video player"
+                     frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+
+                <br><br>
+                <input type="submit" value="Kirim">    
+            </form>    
+            <br><a href="#top">Kembali ke Atas</a>
+        </section>    
+
+    </main>
+
+    <!-- Bagian Bawah -->
+    <footer>
+        <hr>
+        <p>© 2025 - Website Informasi Undip</p>
+    </footer>
+
+</body>
+</html>
